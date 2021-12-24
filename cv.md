@@ -28,4 +28,10 @@ Resourceful, quick-witted, responsible, attentive and benevolent. I know how to 
 ```
 ---
 ## Education
-* University: Francisk Skorina Gomel State University
+* University: Francisk Skorina Gomel State University, Faculty of Geology and Geography
+* Courses: 
+    + [HTML code-basics.com](https://ru.code-basics.com/languages/html)
+    + [CSS code-basics.com](https://ru.code-basics.com/languages/css)
+---
+## Englich
+**A1**
