@@ -1,3 +1,37 @@
-div {
-    margin: 100px;
+/* RESET */
+html{overflow-y: scroll;min-height: 100%;}
+body{height: 100%;margin: 0;}
+a img{border:none;}
+:focus{outline: 0 none;}
+h1,h2,h3,h4,h5,h6{margin:0;}
+ul{margin:0;padding:0;list-style:none;}
+table,th,td{vertical-align:middle;border-collapse:collapse;border-spacing:0;margin:0;padding:0;}
+caption, th{text-align:left;font-weight: normal;}
+section,article,aside,figure,footer,header,nav {display: block;}
+header,
+section,
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #DF44D0;
+}
+header {
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+nav div {
+    padding: 15px;
 }
