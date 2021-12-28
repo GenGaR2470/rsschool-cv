@@ -18,32 +18,57 @@ section,
 body {
     font-family: "Montserrat", sans-serif;
     background-color: #DF44D0;
-}
-header {
-    width: 100%;
     font-style: normal;
     font-weight: normal;
     font-size: 22px;
-    line-height: 26px;
+    line-height: 34px;
     color: #FFFFFF;
+}
+header {
+    width: 100%;
+    padding-bottom: 40px;
 }
 nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    background-color: #6d1464;
 }
 nav div {
     padding: 15px;
 }
-main {
+.NF {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     width: 100%;
+    padding-bottom: 40px;
 }
 .avatar {
     max-width: 300px;
     max-height: 300px;
     border-radius: 50%;
+}
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 42px;
+    color: #FFFFFF;
+    padding-right: 40px;
+}
+.a-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.a-me p {
+    margin: 10px 20% 0 20%;
+    padding: 10px;
+    background-color: #6d1464;
 }
