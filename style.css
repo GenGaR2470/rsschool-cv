@@ -37,6 +37,12 @@ nav {
 nav div {
     padding: 15px;
 }
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .NF {
     display: flex;
     flex-wrap: wrap;
@@ -61,13 +67,13 @@ nav div {
     color: #FFFFFF;
     padding-right: 40px;
 }
-.a-me {
+/*.a-me {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.a-me p {
+}*/
+.a-me {
     margin: 10px 20% 0 20%;
     padding: 10px;
     background-color: #6d1464;
