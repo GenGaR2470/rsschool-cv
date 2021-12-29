@@ -93,8 +93,20 @@ main {
     padding: 50px;   
 }
 .Code-Ex {
-    margin: 20px 20% 50px 20%;
+    margin: 20px 20% 0px 20%;
     background-color: #6d1464;
     padding: 10px;
     color: darkgrey;
+}
+.educ {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 190px;
+    /*background-image: url(https://ksmu.kg/wp-content/uploads/2019/05/IGDiGT_Univer5.png);
+    background-size: 20%;*/
+}
+.emb-geo img {
+    width: 200px;
+    height: 200px;
 }
