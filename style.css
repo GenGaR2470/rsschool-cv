@@ -41,6 +41,17 @@ nav {
 nav div {
     padding: 15px;
 }
+a {
+    outline: none;
+    text-decoration: none;
+}
+a:link {
+    color: #ffffff;
+  }
+  
+  a:visited {
+    color: #ffffff;
+  }
 main {
     display: flex;
     flex-direction: column;
@@ -129,7 +140,7 @@ footer {
     font-weight: bold;
     font-size: 14px;
     line-height: 24px;
-    color: #000000;
+    color: #ffffff;
 }
 footer div img {
     width: 40px;
