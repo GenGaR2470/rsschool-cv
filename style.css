@@ -1,0 +1,152 @@
+/* RESET */
+html{overflow-y: scroll;min-height: 100%;}
+body{height: 100%;margin: 0;}
+a img{border:none;}
+:focus{outline: 0 none;}
+h1,h2,h3,h4,h5,h6{margin:0;}
+ul{margin:0;padding:0;list-style:none;}
+table,th,td{vertical-align:middle;border-collapse:collapse;border-spacing:0;margin:0;padding:0;}
+caption, th{text-align:left;font-weight: normal;}
+section,article,aside,figure,footer,header,nav {display: block;}
+header,
+section,
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #DF44D0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+h2 {
+    font-size: 1.5em;
+    padding-top: 80px;
+}
+header {
+    width: 100%;
+    padding-bottom: 40px;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #6d1464;
+}
+nav div {
+    padding: 15px;
+}
+a {
+    outline: none;
+    text-decoration: none;
+}
+a:link {
+    color: #ffffff;
+  }
+  
+  a:visited {
+    color: #ffffff;
+  }
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.NF {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 40px;
+}
+.avatar {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 50%;
+}
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 42px;
+    color: #FFFFFF;
+    padding-right: 40px;
+}
+/*.a-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}*/
+.a-me {
+    margin: 10px 20% 0px 20%;
+    padding: 10px;
+    background-color: #6d1464;
+}
+.Skills-h3 {
+    margin-bottom: 30px;
+}
+.Skills-d ul li {
+    display: inline;
+    font-size: 4rem; 
+    color: rgb(9, 218, 218);
+    text-decoration: underline cornflowerblue;
+    padding: 50px;   
+}
+.Code-Ex {
+    margin: 20px 20% 0px 20%;
+    background-color: #6d1464;
+    padding: 10px;
+    color: darkgrey;
+}
+.educ {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 190px;
+    /*background-image: url(https://ksmu.kg/wp-content/uploads/2019/05/IGDiGT_Univer5.png);
+    background-size: 20%;*/
+}
+.emb-geo img {
+    width: 200px;
+    height: 200px;
+}
+.lang {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 70%;
+    margin: 30px 0 20px 0;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #fc6ae8;
+    width: 100%;
+    height: 60px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+}
+footer div img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+footer p {
+    padding-right: 20px;
+}
