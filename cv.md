@@ -1,7 +1,7 @@
 # Ilya Ripinski
 ---
 ## Contacts
-* location: Gomel, Minsk, Belarus
+* location: Gomel, Belarus
 * Phone: +375 44 703-52-63
 * Email: gengarily@gmail.com
 * Discord: GenGaR#7689
@@ -14,6 +14,7 @@ Resourceful, quick-witted, responsible, attentive and benevolent. I know how to 
 ## Skills
 * HTML
 * CSS
+* JS
 ---
 ## Code Example
 ```
@@ -34,4 +35,4 @@ Resourceful, quick-witted, responsible, attentive and benevolent. I know how to 
     + [CSS code-basics.com](https://ru.code-basics.com/languages/css)
 ---
 ## Englich
-**A1**
+**A2**
