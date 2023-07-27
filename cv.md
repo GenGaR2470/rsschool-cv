@@ -4,7 +4,7 @@
 * location: Gomel, Belarus
 * Phone: +375 44 703-52-63
 * Email: gengarily@gmail.com
-* Discord: GenGaR#7689
+* Discord: gengar7689
 * GitHub: [GenGaR2470](https://github.com/GenGaR2470)
 ---
 ## About Me
@@ -12,8 +12,9 @@ I am resourceful, smart, responsible, attentive and friendly. I know how to work
 
 ---
 ## Skills
-* HTML
-* CSS
+* Java
+* SQL
+* HTML/CSS
 * Postman
 * Drawio
 * Figma
@@ -21,19 +22,23 @@ I am resourceful, smart, responsible, attentive and friendly. I know how to work
 ---
 ## Code Example
 ```
-@media screen and (max-width: 980px) {
-    .bigtext1 {
-        font-size: 60px;
-    }
-    .boxtext3 p {
-        font-size: 15px;
-        margin: 10% 0;
+@Test(groups = {"Regression", "AQA31"},
+            testName = "Unregistered login test",
+            description = "Unregistered login test on Yandex.ru")
+    public void unregisteredLoginTest() {
+        ErrorLoginPage errorPage = new LoginPage()
+                .open()
+                .typeLogin("genadyskwortsov")
+                .clickLoginButtonIncorrect();
+        assertion.assertEquals(errorPage.getErrorMessage(), "Такого аккаунта нет",
+                "Comparing messages about an unregistered login");
+        assertion.assertAll();
     }
 ```
 ---
 ## Education
 * University: Francisk Skorina Gomel State University, Faculty of Geology and Geography
-* ITStepAcademy(https://gomel.itstep.by/): Software testing (QA)
+* ITStepAcademy(https://gomel.itstep.by/): Software testing (QA & AQA)
 * Courses: 
     + [HTML code-basics.com](https://ru.code-basics.com/languages/html)
     + [CSS code-basics.com](https://ru.code-basics.com/languages/css)
